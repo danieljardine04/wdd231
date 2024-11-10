@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap;');
+@media screen and (min-width: 500px){
+
+nav {
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+
+}
+
+  nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .navigation li {
+    display: flex;
+    padding: 10px;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+
+  .class-card {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #menu {
+    display: none;
+  }
+
+
+}
