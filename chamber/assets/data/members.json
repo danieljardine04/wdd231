@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "name": "Lake George SteamBoat Company",
+      "address1": "57 Beach Road",
+      "address2": "Lake George, NY 12845",
+      "phone": 5186685777,
+      "website": "https://lakegeorgesteamboat.com/",
+      "image": "https://lakegeorgesteamboat.com/wp-content/uploads/2018/11/2.jpg",
+      "membership": 3,
+      "description": "Established in 1817, the Lake George Steamboat Company has been operating on Lake George for over 200 years. Experience the beauty of Lake George and the surrounding Adirondack Mountains on a cruise aboard the Minne Ha Ha, the MV Mohican II or the company’s flagship Lac du Saint Sacrement."
+    },
+    {
+      "name": "Parasail Nation",
+      "address1": "2 Kurosaka Lane",
+      "address2": "Lake George, NY 12845",
+      "phone": 5186819440,
+      "website": "https://www.parasailingadventures.com/",
+      "image": "https://lirp.cdn-website.com/b1978c05/dms3rep/multi/opt/DSC_0222-d6d75418-1920w.JPG",
+      "membership": 2,
+      "description": "Parasail Nation is proud to have offered parasail rides in Lake George, New York for over 20 Years. We have a team of highly experienced and dedicated staff who pride themselves of offering the best service to our customers."
+    },
+    {
+      "name": "Escape LG",
+      "address1": "115 Canada Street",
+      "address2": "Lake George, NY 12845",
+      "phone": 5186682900,
+      "website": "https://escapelg.com/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsO5Sj-7V4MbN4iJWtc9241yz52qtKFYKnew&s",
+      "membership": 1,
+      "description": "Discover one-of-a-kind escape room excitement in Lake George village at Escape LG! Book now for an unforgettable adventure!"
+    },
+    {
+      "name": "Tamarack Inn",
+      "address1": "440 Canada Street",
+      "address2": "Lake George, NY 12845",
+      "phone": 5186685400,
+      "website": "https://www.tripadvisor.com/Restaurant_Review-g48016-d409712-Reviews-Tamarack_Inn-Lake_George_New_York.html",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/1c/97/ac/tamarack-inn.jpg?w=1000&h=-1&s=1",
+      "membership": 1,
+      "description": "Family Restaurant, serving Breakfast, and Special event Dinners and meals, Rustick cosy Log Cabin in the Adirondack park."
+    },
+    {
+      "name": "House of Frankenstein Wax Museum",
+      "address1": "213 Canada Street",
+      "address2":"Lake George, NY 12845",
+      "phone": 5186683377,
+      "website": "https://frankensteinwaxmuseum.com/",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHJ9V1uAWpzKw-4o63tPhhr_C5kb3CZppLZA&s",
+      "membership": 2,
+      "description": "VICTOR FRANKENSTEIN ACCORDING TO MARY SHELLEY CREATED A MONSTER FROM THE DEAD. HERE IN THE HOUSE OF FRANKENSTEIN THERE ARE MANY “MONSTERS”. THE CREATURES WITHIN THE HALLWAYS ARE NOT LIVING - YET…ARE THEY DEAD? FOR AS YOU SEE FOR YOURSELF, THEY MOVE AND TALK AND SOMETIMES THEY EVEN SCREAM!"
+    },
+    {
+     "name": "Pizza Jerks",
+     "address1": "59 Iroquois Street",
+     "address2": "Lake George, NY 12845",
+     "phone": 5186684411,
+     "website": "https://www.pizzajerks.com/",
+     "image": "https://static.wixstatic.com/media/874d37_daaef6c86e8148668b27a3bb0ed26f89~mv2.png/v1/fill/w_548,h_180,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/874d37_daaef6c86e8148668b27a3bb0ed26f89~mv2.png",
+     "membership": 2,
+     "description": "Our family dough and sauce recipes make our food unique in flavor"
+    },
+    {
+      "name": "Caffe Vero",
+      "address1": "253 Canada Street",
+      "address2": "Lake George, NY 12845",
+      "phone": 5186685800,
+      "website": "https://www.caffevero.net/",
+      "image": "https://www.caffevero.net/templates/yootheme/cache/dd/image2-dd10fc8d.webp",
+      "membership": 3,
+      "description": "Caffé Vero Coffee is produced using the finest Arabica Coffee Beans. We pride ourselves on our commitment to freshness and quality. In house made baked goods, donuts, bagels made from scratch make for a delicious breakfast treat or lunch sandwhiches."
+    }
+  ]
+}
