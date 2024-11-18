@@ -58,6 +58,7 @@ const courses = ["All", "CSE", "WDD"];
       listEl.appendChild(listItem);
       h3El.textContent = course;
       listItem.addEventListener('click', function(event){
+        checkSelected(course);
         event.preventDefault();
         filtercards(course);
         
@@ -95,5 +96,6 @@ function filtercards(type){
     }
   })
   
+
   
 }
