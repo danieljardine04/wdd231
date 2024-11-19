@@ -1,0 +1,52 @@
+@media screen and (max-width: 500px){
+ 
+  
+  nav {
+    display: flex;
+    align-items: center;
+    
+  }
+  nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    color: #00f094;
+  }
+  
+  .navigation a {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .navigation li {
+    display: none;
+  }
+  
+  #menu {
+    display: block;
+    font-size: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  
+  #menu::before{
+    content: "☰";
+    
+  }
+  #menu.show::before {
+    content: "X";
+  }
+
+  .show li {
+    display: block;
+  }
+
+  .grid-style{
+    display: grid;
+    grid-template-columns: 1fr;
+  
+  }
+
+
+}

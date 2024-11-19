@@ -1,10 +1,124 @@
-
-
+body {
+  font-family: 'roboto', 'sans-serif';
+  margin: 0px;
+  padding: 0px;
+  background-color: #585855;
+}
 
 .button button{
   background-color: orange;
 }
 
-#grid-button:hover {
+.layout{
+  display: flex;
+  text-align: center;
+  border-bottom: 2px solid;
+  justify-content: center;
+}
+
+#grid-button, #list-button{
+  padding: 25px;
+  margin: 1rem;
+  background-color: #00f094;
+  color:#36372f;
+  
+  
+}
+
+#grid-button:hover, #list-button:hover {
   background-color: orange;
 }
+
+header, footer {
+  background-color: #00f094;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #585855;
+  
+}
+
+h1, p{
+  color: #36372f;
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #00f094;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  
+}
+
+nav a:hover {
+  color: #FC814A;
+}
+
+.navigation li {
+  display: flex;
+  padding: 10px;
+}
+
+#menu{
+  display: none;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.grid-style{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.grid-style div {
+  background-color: #00f094;
+  border: 2px;
+  margin: 1rem;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+  outline: 1px solid white;
+}
+
+.grid-style h2 p {
+  color:#36372f;
+}
+
+.list-style div {
+  background-color: #00f094;
+  outline: 1px solid white;
+  text-align: center;
+}
+
+.list-style ul {
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.list-style li {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: solid 1px #36372f;
+  text-align: center;
+}
+
