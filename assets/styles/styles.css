@@ -26,9 +26,6 @@ nav ul {
     grid-template-columns: 1fr 1fr;
   }
 
-
-
-
   .class-card {
     grid-template-columns: 1fr 1fr 1fr;
   }

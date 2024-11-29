@@ -1,3 +1,5 @@
+@import url("./general.css");
+
 @media screen and (max-width: 500px){
  
   
@@ -10,7 +12,7 @@
     text-align: center;
     text-decoration: none;
     padding: 10px;
-    color: #00f094;
+    color: #1d1d87;
   }
   
   .navigation a {
@@ -42,11 +44,8 @@
     display: block;
   }
 
-  .grid-style{
-    display: grid;
+  .footerGrid {
     grid-template-columns: 1fr;
-  
   }
-
 
 }

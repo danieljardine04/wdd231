@@ -71,7 +71,7 @@ function displayMembers(members){
       sectionEl.classList.add('list-style');
     }
     else{
-      address.textContent = `${member.address1} /n ${member.address2}`
+      address.textContent = `${member.address1} \n ${member.address2}`
       divEl.appendChild(businessName);
       divEl.appendChild(portrait);
       divEl.appendChild(address);
@@ -85,3 +85,4 @@ function displayMembers(members){
 }
 
 getMemberData(url);
+

@@ -1,86 +1,20 @@
-body {
-  font-family: 'roboto', 'sans-serif';
-  margin: 0px;
-  padding: 0px;
-  background-color: #585855;
-}
-
-.button button{
-  background-color: orange;
-}
-
-.layout{
-  display: flex;
-  text-align: center;
-  border-bottom: 2px solid;
-  justify-content: center;
-}
+@import url("./general.css");
 
 #grid-button, #list-button{
-  padding: 25px;
+  padding: 15px;
   margin: 1rem;
-  background-color: #00f094;
-  color:#36372f;
-  
-  
+  /* background-color: #00f094; */
+  background-color: #1d1d87;
+  color: white;
+
+}
+
+h1, h2, p{
+  color: white;
 }
 
 #grid-button:hover, #list-button:hover {
   background-color: orange;
-}
-
-header, footer {
-  background-color: #00f094;
-}
-
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #585855;
-  
-}
-
-h1, p{
-  color: #36372f;
-}
-
-nav a {
-  text-align: center;
-  text-decoration: none;
-  padding: 10px;
-  color: #00f094;
-}
-
-nav ul {
-  display: flex;
-  justify-content: center;
-}
-
-.navigation a {
-  display: block;
-  text-align: left;
-  text-decoration: none;
-  
-}
-
-nav a:hover {
-  color: #FC814A;
-}
-
-.navigation li {
-  display: flex;
-  padding: 10px;
-}
-
-#menu{
-  display: none;
-}
-
-main {
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
 }
 
 .grid-style{
@@ -90,22 +24,27 @@ main {
 }
 
 .grid-style div {
-  background-color: #00f094;
+  background-color: #1d1d87;
   border: 2px;
   margin: 1rem;
   align-items: center;
   text-align: center;
   padding-bottom: 1rem;
-  outline: 1px solid white;
+  outline: 3px solid gray;
 }
 
-.grid-style h2 p {
-  color:#36372f;
+.grid-style a {
+  color: white;
+}
+
+.grid-style a:hover {
+  color: orange;
 }
 
 .list-style div {
-  background-color: #00f094;
-  outline: 1px solid white;
+  /* background-color: #00f094; */
+  background-color: #1d1d87;
+  outline: 1px solid black;
   text-align: center;
 }
 
@@ -113,12 +52,34 @@ main {
   list-style: none;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-right: 2rem;
 }
 
 .list-style li {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border: solid 1px #36372f;
+  border: solid 1px white;
   text-align: center;
 }
 
+.list-style a {
+  color: white;
+}
+
+.list-style a:hover {
+  color: orange;
+}
+
+@media screen and (max-width: 500px){
+
+  .grid-style{
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 80%;
+  
+  }
+
+  .grid-style img {
+    max-width: 80%;
+  }
+}
