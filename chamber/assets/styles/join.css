@@ -1,0 +1,73 @@
+#grid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr  1fr;
+}
+
+.applicant label{
+  display: block;
+  padding: 1rem;
+}
+
+.applicant label[type='input'],
+.applicant label[type='textarea']{
+  padding: 1rem;
+}
+
+.applicant label[type='textarea']{
+  padding: 3rem;
+}
+
+#membership {
+  display: flex;
+  margin: 1rem;
+  grid-template: 1fr;
+  
+
+}
+
+.member {
+  flex: wrap;
+  background-color: #1d1d87;
+  border: solid 3px black;
+  padding: 25px; 
+  margin: 1rem;
+
+}
+.member label {
+  color: white;
+}
+
+.member button {
+  padding: 5px;
+  background-color: aqua;
+}
+
+.member button:hover {
+  background-color: orange;
+  opacity: 1;
+  animation-duration: 500ms;
+}
+
+#submit {
+  align-self: center;
+  align-content: center;
+  padding: 10px;
+  background-color: aqua;
+  margin-bottom: 2rem;
+  
+}
+
+#submit:hover {
+  background-color: orange;
+}
+
+.center {
+  display:flex;
+  justify-content: center;
+}
+main h1 {
+  text-align: center;
+}
+
