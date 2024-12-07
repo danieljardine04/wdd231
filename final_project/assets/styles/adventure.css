@@ -1,0 +1,9 @@
+header, footer {
+  background-color: #eb9500;
+  padding: 8px;
+  margin: 0px;
+}
+
+header h1, header p, footer p {
+  color: #1a1a84;
+}
