@@ -48,6 +48,10 @@
     grid-template-columns: 1fr;
   }
 
+  .pictures img:hover{
+    border: none;
+  }
+
   .footerGrid {
     grid-template-columns: 1fr;
   }
