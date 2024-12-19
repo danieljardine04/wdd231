@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Friendly Adventures Form Page</title>
+  <meta name="description" content="A Journal webpage to hold your own memories online">
+  <meta name="author" content="Daniel Jardine">
+  <link rel="stylesheet" href="./assets/styles/adventure-small.css">
+  <link rel="stylesheet" href="./assets/styles/adventure.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+  <link rel="icon" href="./assets/images/journal_favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Friendly Adventures</h1>
+    <p>A journal made online</p>
+    <a id="menu" href="#"></a>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="journal.html">Journals</a></li>
+      <li>  <a href="entries.html">Entries</a></li>
+      <li><a href="form.html">Create Note</a></li>
+    </ul>
+  </nav>
+  <main class="main">
+    <div class="identifier"></div>
+    <div class="opener">
+      <h2>New Journal Entry</h2>
+      <p>Please fill out the form below to add a new Entry to your Journal.</p>
+    </div>
+    <div>
+      <form class="wf1" action="./entries.html">
+        <label>What is the name of your Journal Entry?</label>
+        <input id="entryName" type="text">
+        <label>Please Write your Journal Entry below</label>
+        <textarea id="entryText"></textarea>
+        <label>What city did this event happen in?</label>
+        <input id="cityLocation" type="text">
+        <label>What state did this happen in? Please enter two letter state code</label>
+        <input id="stateLocation" type="text">
+        <button id="submitButton">Create Journal Entry</button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>
+      <span id="currentyear"></span>
+      
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+  <script src="./assets/scripts/general.js" ></script>
+  <script src="./assets/scripts/journal.js" defer></script>
+</body>
+</html>

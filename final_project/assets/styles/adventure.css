@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap;');
+@media screen and (min-width: 500px){
+
 header, footer {
   background-color: #eb9500;
   padding: 8px;
@@ -6,4 +9,115 @@ header, footer {
 
 header h1, header p, footer p {
   color: #1a1a84;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.incognito {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+header p {
+  position: absolute;
+  left: 4%;
+  top: 5%;
+
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  background-color: lightgray;
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #1a1a84;
+  
+}
+
+nav a:hover {
+  color: #FC814A;
+}
+
+.navigation li {
+  display: block;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#menu{
+  display: none;
+}
+
+main {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+.card {
+  border: solid 2px black;
+  background-color: #bfd7b5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 3px;
+}
+
+.card button {
+  justify-content: flex-end;
+  padding: 1.5rem;
+  color: #80a1c1;
+  
+}
+
+.card button:hover {
+  background-color: #FC814A;
+  color: white;
+}
+
+.entries {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#placesVisited{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.journalEntry {
+  min-width: 200px;
+ 
+
+}
+
 }

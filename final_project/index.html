@@ -3,49 +3,79 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final Project</title>
+  <meta name="author" content="Daniel Jardine">
+  <meta name="description" content="A website that you can search on the map and find things you have done">
+  <title>Friendly Adventures</title>
+  <link rel="stylesheet" href="./assets/styles/adventure-small.css">
   <link rel="stylesheet" href="./assets/styles/adventure.css">
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.8.0/mapbox-gl.js"></script>
+  <link rel="icon" href="./assets/images/journal_favicon.ico">
 </head>
 <body>
-<header>
-  <h1>Friendly Adventures</h1>
-  <p>I decided to call the site Friendly Adventure's because it will be a way to document adventures as well as find new places to go.</p>
-</header>
-<main>
-  <div>
-    <h2>Site Purpose</h2>
-    <p>The purpose of this site is to help document life events, and show on the map where the event took place.</p>
-  </div>
-  <div>
-    <h2>Scenarios</h2>
-    <h3>Scenerio 1</h3>
-    <p>I am a person that likes to travel and I would like to be able to store stories and see where I have visited in the world.</p>
-    <h3>Scenerio 2</h3>
-    <p>I am a person that wants to visit a specific area, and I would like to know what I can do at that area.</p>
-  </div>
-  <div>
-    <h2>Color Schema</h2>
-    <h3>Header and Footer Background Color</h3>
-    <p>color 1: #eb9500 an orange color for the background</p>
-    <p>color 2: #1a1a84 a blue color for contrast and text</p>
-  </div>
-  <div>
-    <h2>Typography Named and Used</h2>
-    <p>The font will be used is Roboto and sans-serif Roboto will be used</p>
-  </div>
-  <div>
-    <h2>Wire Frame</h2>
-    <h3>Computer view</h3>
-    <img src="./assets/images/wireframe_computer.JPG">
-    <h3>Phone view</h3>
-    <img src="./assets/images/wireframe_phone_view.JPG">
-
-  </div>
-
-
-</main>
+  <header>
+    <h1>Friendly Adventures</h1>
+    <p>Where you can track your personal adventures and find new ones.</p>
+    <a id="menu" href="#"></a>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="journal.html">Journal</a></li>
+      <li><a href="entries.html">Entries</a></li>
+      <li><a href="form.html">Create Entry</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="search">
+      <h2>Search for a City and State!</h2>
+      <input id="searchBar" type="search">
+      
+    </div>
+    <div class="map">
+      <gmp-map id="map"
+  center="43.25,-73.42"
+  zoom="10"
+  map-id="DEMO_MAP_ID"
+  style="height: 400px"
+>
+<gmp-advanced-marker
+    position="37.4220656,-122.0840897"
+    title="Mountain View, CA"
+  ></gmp-advanced-marker>
+</gmp-map>
+      
+    </div>
+    <div id="showHere"></div>
+    <section class="grid-content">
+      <dialog id="entrydialog">
+        <div>
+          <h2>Journal Title</h2>
+          <p id="summary"></p>
+          <p id="location"></p>
+          <button id="register"></button>
+          <button id="close">X</button>
+        </div>
+      </dialog>
+      <div id="left-grid-box">
+        <h2 id="personalExperiences">Your Personal Experiences Here!</h2>
+        <div id="placesVisited"></div>
+      </div>
+      <div id="newAreas">
+        <h2>No currently Registered Journal Entry</h2>
+      </div>
+    </section>
+  </main>
   <footer>
-    <p>created by Daniel Jardine</p>
+    <span id="currentyear"></span>
+      
+  </p>
+  <p id="lastModified"></p>
   </footer>
+  <script src="./assets/scripts/general.js" defer ></script>
+  <script src="./assets/scripts/adventure.js" defer></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRDFVpObpVTZJ_Zo2p99AyRR2wLUPcTXs&loading=async&libraries=maps&libraries=marker&v=beta" defer>
+</script>
 </body>
 </html>

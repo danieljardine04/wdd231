@@ -1,0 +1,269 @@
+
+
+
+body {
+  font-family: 'roboto', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.incognito {
+  display: none;
+}
+
+header, footer {
+  background-color: #eb9500;
+  color: #1a1a84;
+  padding: 8px;
+  margin: 0px;
+}
+
+header {
+  margin-bottom: 1rem;
+  align-items: center;
+  padding-bottom: 10px;
+  
+}
+
+header p {
+  position: absolute;
+  left: 8%;
+  top: 10%;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  color: #1a1a84;
+}
+.navigation a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  
+  
+}
+
+nav a:hover {
+  color: #FC814A;
+}
+
+.navigation li {
+  display: none;
+}
+
+#menu{
+  display: block;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#menu::before{
+  content: "☰";
+}
+
+.show li {
+  display: block;
+}
+
+#menu.show::before {
+  content: "X";
+}
+
+main {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card {
+  border: solid 2px black;
+  background-color: #bfd7b5;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 3px;
+}
+
+.card button {
+  justify-content: flex-end;
+  padding: 1.5rem;
+  color: #80a1c1;
+  
+}
+
+.card button:hover {
+  background-color: #FC814A;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  align-content: center;
+  position: block;
+  margin-bottom: 2rem;
+
+}
+
+.container input[type="text"]{
+  background-color: #999;
+  color: white
+}
+
+.entry{
+  display: block;
+  border: solid 2px #1a1a84;
+  padding: 1rem;
+  margin: 3px;
+  background-color: #eb9500;
+  
+}
+
+.entry h3 {
+  color: #1a1a84;
+}
+
+.entry p {
+  color: black;
+}
+
+.wf1 input[type="text"],
+.wf1 textarea,
+.container input {
+  background-color: lightgray;
+  display: block;
+  border: solid 2px #eb9500;
+  border-radius: 6px;
+  padding: 20px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  margin: 10px
+}
+
+#left-grid-box {
+  border: 2px solid #eb9500;
+  background-color: lightgray;
+  margin-right: 10px;
+}
+
+.container input[type="text"] {
+  background-Color: #bfd7b5;
+  color: black;
+  align-items: center;
+}
+
+.opener {
+  text-align: center;
+  margin-bottom: 2rem; 
+}
+
+.opener button, .container button, #submitButton {
+  padding: 1.5rem;
+  background-color: lightgray;
+  font-size: large;
+
+}
+
+.opener button:hover, .container button:hover, #submitButton:hover {
+  background-color: #FC814A;
+}
+
+#submitButton {
+  margin-top: 5px;
+}
+
+
+form {
+  border: solid 4px #eb9500;
+  padding: 1rem;
+  background-color: #1a1a84;
+  color: #eb9500;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+
+.search {
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+#map {
+  margin-bottom: 20px;
+}
+
+.search h2 {
+  color:#1a1a84;
+  
+}
+
+.search input[type="search"]{
+  min-height: 50px;
+  min-width:  300px;
+  background-color: lightgray;
+  border-radius: 6px;
+  border: 2px solid black;
+  font-size: large;
+}
+
+.grid-content {
+  grid-template-columns: 1fr;
+  margin-bottom: 20px;
+}
+
+#personalExperiences {
+  color:#1a1a84;
+  
+}
+
+
+.journalEntry {
+  border: solid 2px #eb9500;
+  background-color: #1a1a84;
+  margin: 10px;
+  max-width: 250px;
+  padding: 10px;
+  
+}
+
+.journalEntry h3, .journalEntry h2, #newAreas h2, #newAreas h3 {
+  color: #eb9500;
+}
+
+.journalEntry p, #newAreas p {
+  color: white;
+}
+
+.journalEntry button {
+  background-color: #eb9500;
+  color: black;
+  padding: 10px;
+}
+
+.journalEntry button:hover {
+  background-color: brown;
+  color: white;
+}
+
+#newAreas {
+  border: 2px solid #eb9500;
+  background-color: #1a1a84;
+}
+
+.identifier h1 {
+  color: #1a1a84;
+}
+
+
+
+
